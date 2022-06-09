@@ -3,5 +3,5 @@
 <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
 
 <ligntning:flow aura:id="flowData"/>
-
+<aura:attribute type="SObject" name="Car" access="public" />
 </aura:component>	
