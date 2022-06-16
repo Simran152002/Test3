@@ -2,6 +2,7 @@
 
 <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
 <aura:attribute namw="checkVar" type="boolean" default="false" />
+<aura:attribute name="Var" type="Strin" access="public"/>
 <ligntning:flow aura:id="flowData"/>
 
 </aura:component>	
